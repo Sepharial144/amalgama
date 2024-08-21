@@ -11,4 +11,9 @@ RUN apk update \
     ninja \
     ccache \
     gtest-dev \
+    dpdk \
+    linux-headers \
+    bsd-compat-headers \
+    numactl-dev \
+    meson \
     python3
